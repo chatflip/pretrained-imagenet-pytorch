@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PyCharm
+.idea
+
+# ignore folder
+mobilenetv2/*
+inceptionv3/*
+
+# exclude file
+!mobilenetv2/checkpoint.pth
