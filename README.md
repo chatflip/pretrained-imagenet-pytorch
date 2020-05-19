@@ -14,6 +14,6 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 ## Results
  Architecture | Resolution | Accuracy@Top1 | Accuracy@Top5 |
 |:-------------|-----------:|-----------------:|----------------:|
-mobilenetv2_13([TF](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet)) | 224 | 74.4 | 92.1 |
+mobilenetv2_13([TensorFlow](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet)) | 224 | 74.4 | 92.1 |
 mobilenetv2_13(pytorch) | 224 | |  |
-inceptionv3 | 224 | |  |
+inceptionv3 | 224 | 75.624 | 92.478 |
