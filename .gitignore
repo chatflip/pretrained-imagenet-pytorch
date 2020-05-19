@@ -136,4 +136,5 @@ mobilenetv2/*
 inceptionv3/*
 
 # exclude file
-!mobilenetv2/checkpoint.pth
+!mobilenetv2/mobilenetv2_13_imagenet_res224.pth
+!inceptionv3/inceptionv3_imagenet_res224.pth
