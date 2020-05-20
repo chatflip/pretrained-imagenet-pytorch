@@ -167,8 +167,8 @@ def main(args):
         sampler=test_sampler, num_workers=args.workers, pin_memory=True)
 
     print("Creating model")
-    if args.model == 'mobilenetv2_width_multi13':
-        model = torchvision.models.mobilenet_v2(width_mult=1.3)
+    if args.model == 'mobilenetv2_width_mult14':
+        model = torchvision.models.mobilenet_v2(width_mult=1.4)
     elif args.model == 'inceptionv3_res224':
         model = torchvision.models.inception_v3(
             pretrained=True, aux_logits=False, transform_input=False)

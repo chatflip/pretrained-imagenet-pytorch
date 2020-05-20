@@ -80,9 +80,9 @@ if __name__ == '__main__':
 
     param = torch.load(src_name)
 
-    if args.model == 'mobilenetv2_width_multi13':
-        model = torchvision.models.mobilenet_v2(width_mult=1.3)
-        dst_name = '{0}/mobilenetv2_13_imagenet_res224.pth'.format(root)
+    if args.model == 'mobilenetv2_width_mult14':
+        model = torchvision.models.mobilenet_v2(width_mult=1.4)
+        dst_name = '{0}/mobilenetv2_width_mult14_imagenet.pth'.format(root)
     elif args.model == 'inceptionv3_res224':
         model = torchvision.models.inception_v3(
             pretrained=True, aux_logits=False, transform_input=False)
