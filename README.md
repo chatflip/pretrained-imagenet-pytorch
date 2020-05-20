@@ -18,5 +18,4 @@ mobilenetv2_13([TensorFlow](https://github.com/tensorflow/models/tree/master/res
 mobilenetv2_14([TensorFlow](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet)) | 224 | 75.0 | 92.5 |
 mobilenetv2_13(pytorch) | 224 | |  |
 mobilenetv2_14(pytorch) | 224 | |  |
-inceptionv3 | 224 | 75.624 | 92.478 |
- 	 	
+inceptionv3 | 224 | 75.900 | 92.676 |
