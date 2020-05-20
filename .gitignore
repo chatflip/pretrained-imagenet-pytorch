@@ -136,5 +136,5 @@ mobilenetv2/*
 inceptionv3/*
 
 # exclude file
-!mobilenetv2/mobilenetv2_13_imagenet_res224.pth
+!mobilenetv2/mobilenetv2_width_mult14_imagenet.pth
 !inceptionv3/inceptionv3_imagenet_res224.pth
