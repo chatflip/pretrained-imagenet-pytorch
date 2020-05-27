@@ -11,4 +11,4 @@ python -m torch.distributed.launch --nproc_per_node=2 --use_env train.py \
        --resume ${output_dir}/checkpoint.pth --output-dir=${output_dir} --apex
 #python -m torch.distributed.launch --nproc_per_node=2 --use_env train.py \
 #       --model mobilenetv2_width_mult14 --batch-size 128 --cache-dataset \
-#       --resume ${output_dir}/model_0.pth --output-dir=${output_dir} --apex --test-only
+#       --resume ${output_dir}/model_139.pth --output-dir=${output_dir} --apex --test-only
